@@ -1,0 +1,128 @@
+*{
+   padding: 0%;
+   margin: 0%;
+  background-color: rgb(2, 134, 90);
+  text-align: center;
+
+}
+H1{ padding: 2VMIN;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: WRAP;
+}
+.CON{
+    width: 85vmin   ;
+    background-color: beige;
+    border-radius: .5rem;
+    
+}
+.container{
+    height: 70vh;
+    width: 100hh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    background: aliceblue;
+    color: rgb(86, 86, 0);
+    box-shadow: 0 0 1rem rgba(0, 0, 0 , 0.3);
+    border-radius: 1rem;
+    border: none;
+     
+}
+
+.reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin: 0;
+    background: rgb(241, 40, 40);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0 , 0, 0, 0.3);
+}
+.newbutton{
+    padding:.5rem;
+    font-size: .75rem;
+    margin:rem;
+    background: red;
+    color: white;
+    border:none;
+    border-radius: .5rem;
+    box-shadow:0 0 1rem rgba(0 , 0, 0, 0.3);
+}
+
+.hide{
+    display: none;
+}
+.scoreboard{
+    padding: 0;
+    margin: 0;
+    background: #ffffff8a;
+    height: 13vmin;
+    width: 22vmin;
+    border-radius: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;    
+}
+
+.head{
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    gap: 0em;
+    background: #ffffff44;
+    border-radius: 0.25rem;
+    flex-direction: column;
+     
+}
+.scores,.result,.players ,.match,.matchh,.total{
+    background: #ffffff00;
+}
+.players{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem
+;
+}
+.x,.o,.xres,.ores {
+    background: #ffffff00;
+}
+.result,.match{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.25rem;
+    /* background: #ffffff44; */
+}
+.msg{
+    background: #00000000;
+    color: white;
+}
+.msgcont{
+    background: #35303165;
+}
